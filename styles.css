@@ -1,0 +1,122 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
+.featured {
+    color: darkred;
+    font-weight: bold;
+}
+a:hover {
+    color: darkred;
+}
+.food-box {
+    position: relative;
+    width: 400px;
+    height: 300px;
+}
+
+.food-image {
+    position: relative;
+    z-index: 1;
+}
+
+.food-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    background-color: darkred;
+    color: white;
+    padding: 5px;
+}
+
+.about-photo {
+    border: 2px solid darkred;
+    padding: 5px;
+    box-shadow: 3px 3px 5px gray;
+}
+article {
+    background-color: white;
+    width: 400px;
+    padding: 10px;
+    margin-top: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: darkred;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px gray;
+}
+form {
+    background-color: white;
+    width: 400px;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid darkred;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px gray;
+}
+
+input:focus {
+    background-color: lightyellow;
+}
+
+table, th, td {
+    border: 1px solid darkred;
+}
+
+th, td {
+    padding: 8px;
+}
+
+th {
+    background-color: darkred;
+    color: white;
+}
+
+nav {
+    background-color: darkred;
+    padding: 12px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    position: relative;
+    margin-right: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover {
+    color: lightyellow;
+}
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 120px;
+    background-color: darkred;
+    z-index: 3;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    display: block;
+    margin: 0;
+    padding: 8px;
+    border: 1px solid white;
+}
